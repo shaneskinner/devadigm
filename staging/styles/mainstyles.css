@@ -1,0 +1,72 @@
+/*
+   CSS Stylesheet for:    www.devadigm.com
+   File Name:             mainstyles.css
+   Author:		          Devadigm | Shane Skinner
+   Date Created:          05-28-2015
+   Last Updated:          05-28-2015
+   Webpage URL:           www.devadigm.com
+*/
+
+/* DEFAULT STYLES */
+
+body {
+	background-color: #ffffff;
+	font-size: 12px;
+	width: 100%;
+}
+
+#connectHeader, .navMenu, footer {
+	background-color: #003366;
+}
+
+img {
+	width: 100%;
+}
+
+/* HEADER STYLES */
+#connectHeader {
+	height: 150px;
+	width: 100%;
+}
+
+#connectHeader aside {
+	display: inline-block;
+}
+
+#connectHeader aside:nth-of-type(2) {
+	clear: none;
+	float: right;
+}
+
+.socialMedia {
+	color: #ffffff;
+	float: left;
+	font-size: 1.75em;
+	padding: 20px;
+}
+
+.socialMedia img {
+	height: 64px;
+	width: 64px;
+}
+
+.navMenu {
+	clear: both;
+	color: #ffffff;
+	padding: 20px 0px;
+}
+
+.navMenu a {
+	color: inherit;
+}
+
+.navMenu ul {
+	height: 25px;
+	list-style: none;
+}
+
+.navMenu ul li {
+	float: left;
+	font-size: 1.75em;
+	padding: 0px 20px;
+}
