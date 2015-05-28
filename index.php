@@ -29,12 +29,16 @@
    <body>
       <header>
          <section id="connectHeader">
-            <aside>Let's Connect! <a href="https://twitter.com/devadigm" alt="https://twitter.com/devadigm" 
-            target="_blank">@devadigm</a></aside>
+            <aside>
+               <p>Let's Connect!</p>
+               <p><a href="https://twitter.com/devadigm" alt="Twitter: @devadigm" target="_blank">
+                  <img src="images/twitter.jfif"></a></p>
+               <p><a href="#" alt="Facebook: Devadigm"><img src="images/facebook.jfif"></a></p>
+            </aside>
             <aside>Sign-up for our free Small Business newsletter:</aside>
          </section>
          <aside>
-            <?php include "php/coverImage.php";?>
+            <?php include "php/coverHeader.php";?>
          </aside>
          <article class="navMenu">
             <?php include "php/mainNavMenu.php";?>
@@ -52,7 +56,7 @@
       </section>
 
       <footer>
-         <aside>Email: <br /> Phone: <br /> Hyannis, MA, USA</aside>
+         <aside>Email: <br /> Phone: <a href="tel:4015752276">(401) 575-2276</a> <br /> Hyannis, MA, USA</aside>
          <aside>Devadigm</aside>
          <aside>Proud member of the Cape Cod Young Professionals!</aside>
       </footer>
